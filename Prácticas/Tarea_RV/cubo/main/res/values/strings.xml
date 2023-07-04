@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cubo</string>
+    <string name="dimension">Escribe la dimension del cuadro</string>
+    <string name="crear">Crear</string>
+</resources>
