@@ -1,0 +1,153 @@
+PLANTILLAS.
+En cada sección, sustituir el código XML en su archivo correspondiente.
+Las plantillas (Layouts) permiten acomodar los componentes gráficos
+dentro de la pantalla del móvil.
+
+//=========== 1. POSICIONAMIENTO RELATIVO ==================//
+	1.1 Posición relativa con respecto a otro control:
+android:layout_above
+android:layout_below
+android:layout_toLeftOf
+android:layout_toRightOf
+android:layout_alignLeft
+android:layout_alignRight
+android:layout_alignTop
+android:layout_alignBottom
+android:layout_alignBaseline
+
+	1.2 Posición relativa con respecto a la plantilla padre:
+android:layout_alignParentLeft
+android:layout_alignParentRight
+android:layout_alignParentTop
+android:layout_alignParentBottom
+android:layout_centerHorizontal
+android:layout_centerVertical
+android:layout_centerInParent
+
+//	EJEMPLO de RelativeLayout:
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	<EditText
+		android:id="@+id/TxtNombre"
+		android:text="RelativeLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="text" />
+	<Button
+		android:id="@+id/BtnAceptar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/TxtNombre"
+		android:layout_alignParentRight="true" />
+</RelativeLayout>
+
+//=========== 2. POSICIONAMIENTO LINEAL POR RENGLONES ==================//
+//	EJEMPLO de LinearLayout:
+//	Caso 1:
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<EditText
+		android:id="@+id/TxtNombre"
+		android:text="LinearLayout caso 1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+	<Button
+		android:id="@+id/BtnAceptar"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent" />
+</LinearLayout>
+
+//	Caso 2: Documentar la diferencia con la asignación del peso 1 o 2:
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<EditText
+                android:id="@+id/TxtDato1"
+		android:text="LinearLayout caso 2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:inputType="text"
+		android:layout_weight="1" />
+	<EditText
+                android:id="@+id/TxtDato2"
+		android:text="LinearLayout caso 2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+	        android:inputType="text"
+                android:layout_weight="2" />
+</LinearLayout>
+
+//=========== 3. POSICIONAMIENTO COMPLETO ==================//
+//	EJEMPLO FrameLayout:
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<EditText
+		android:id="@+id/TxtNombre"
+		android:text="FrameLayout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:inputType="text" />
+</FrameLayout>
+
+//=========== 4. POSICIONAMIENTO TABULAR ==================//
+//	EJEMPLO TableLayout regular:
+<?xml version="1.0" encoding="utf-8" ?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+        <TextView android:text="Celda 1.1" />
+        <TextView android:text="Celda 1.2" />
+        <TextView android:text="Celda 1.3" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Celda 2.1" />
+        <TextView android:text="Celda 2.2" />
+        <TextView android:text="Celda 2.3" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Celda 3.1"
+               android:layout_span="2" />
+        <TextView android:text="Celda 3.2" />
+    </TableRow>
+</TableLayout>
+
+NOTA:	a. Insertar un TextView con el nombre de la plantilla.
+
+//=========== 5. POSICIONAMIENTO TABULAR LINEAL POR RENGLONES ==================//
+//	EJEMPLO TableLayout irregular. Configurable como TableLayout:
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="3"
+    android:orientation="horizontal" >
+        <TextView android:text="Celda 1.1" />
+        <TextView android:text="Celda 1.2" />
+        <TextView android:text="Celda 1.3" />
+        <TextView android:text="Celda 2.1" />
+        <TextView android:text="Celda 2.2" />
+        <TextView android:text="Celda 2.3" />
+        <TextView android:text="Celda 3.1" android:layout_columnSpan="2" />
+        <TextView android:text="Celda 3.2" />
+</GridLayout>
+
+//=========== EJERCICIOS ==================//
+a. Insertar un TextView con el nombre de la plantilla.
+b. Documentar la diferencia entre TableLayout y GridLayout.
