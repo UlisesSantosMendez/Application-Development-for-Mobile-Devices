@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Figures3D</string>
+    <string name="figuras_3d">Figuras 3D</string>
+    <string name="cubo">Cubo</string>
+    <string name="piramide">Piramide</string>
+    <string name="prisma">Prisma</string>
+    <string name="cono">Cono</string>
+    <string name="cilindro">Cilindro</string>
+    <string name="esfera">Esfera</string>
+    <string name="regresar">Regresar</string>
+</resources>
