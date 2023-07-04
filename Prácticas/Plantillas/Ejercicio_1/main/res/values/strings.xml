@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P1_layouts</string>
+    <string name="relativelayout">RelativeLayout</string>
+    <string name="aceptar">Aceptar</string>
+</resources>
