@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Correo</string>
+    <string name="compose_email">Escribir Email</string>
+    <string name="nombre">Nombre:</string>
+    <string name="correo">Correo:</string>
+    <string name="guardar_registro">Guardar registro</string>
+    <string name="menu_nuevo">Nuevo registro</string>
+    <string name="enviar_correo">Enviar Correo</string>
+</resources>
