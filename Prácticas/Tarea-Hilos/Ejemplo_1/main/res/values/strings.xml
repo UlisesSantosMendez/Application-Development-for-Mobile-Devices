@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Hilos</string>
+    <string name="nal_digitar_el_bot_n_el_hilo_nse_bloquea_n_segundos">\nAl digitar el botón, el hilo\nse bloquea n segundos...</string>
+    <string name="bloquear_la_pantalla">Bloquear la pantalla</string>
+    <string name="ingresar_segundos">ingresar segundos...</string>
+</resources>
