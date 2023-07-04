@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DbmsActivity2</string>
+    <string name="titulo">Calificaciones</string>
+    <string name="id">ID: </string>
+    <string name="nombre">Nombre: </string>
+    <string name="calificacion">Calificación: </string>
+    <string name="alta">Alta</string>
+    <string name="baja">Baja</string>
+    <string name="cambio">Cambio</string>
+    <string name="ver">Ver</string>
+    <string name="lista">Lista</string>
+    <string name="info">Info</string>
+</resources>
