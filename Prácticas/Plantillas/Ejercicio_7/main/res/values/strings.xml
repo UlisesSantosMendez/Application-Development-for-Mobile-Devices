@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ejercicio_7</string>
+    <string name="numeros_n0_n1_n2_n3_n4_n5_n6_n7_n8_n9_n10_n11_n12_n13_n14_n15_n16_n17_n18_n19_n20">Numeros: \n0\n1\n2\n3\n4\n5\n6\n7\n8\n9 \n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20</string>
+    <string name="aceptar">Aceptar</string>
+</resources>
