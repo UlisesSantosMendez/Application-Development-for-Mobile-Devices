@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Canvas2</string>
+    <string name="graficar">Graficar</string>
+    <string name="periodo">Periodo</string>
+    <string name="amplitud">Amplitud</string>
+    <string name="coseno">Coseno</string>
+    <string name="seno">Seno</string>
+</resources>
