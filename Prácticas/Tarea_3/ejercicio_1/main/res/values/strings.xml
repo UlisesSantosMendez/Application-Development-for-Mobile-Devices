@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ejercicio_1</string>
+    <string name="apellidos">Apellidos :</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="segunda_actividad">Segunda actividad</string>
+</resources>
