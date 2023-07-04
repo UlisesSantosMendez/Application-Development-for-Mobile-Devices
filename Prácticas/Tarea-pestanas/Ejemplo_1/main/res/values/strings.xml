@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pestañas1</string>
+    <string name="n_contenido_de_tab_2_n">\n Contenido de Tab 2\n</string>
+    <string name="escribir_aqu">Escribir aquí...</string>
+    <string name="digitar">Digitar</string>
+    <string name="n_contenido_de_tab_1_n">\n Contenido de Tab 1\n</string>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colortab1">#303F9F</color>
+    <color name="colortab2">#FF4081</color>
+    <color name="colortxt">#FFAAAA</color>
+</resources>
