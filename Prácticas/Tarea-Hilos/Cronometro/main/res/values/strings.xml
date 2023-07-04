@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cronos</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="pausar">Pausar</string>
+    <string name="continuar">Continuar</string>
+    <string name="terminar">Terminar</string>
+</resources>
