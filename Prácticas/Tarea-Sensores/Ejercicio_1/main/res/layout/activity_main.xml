@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aceler_metro" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/en_x" />
+    <TextView
+        android:id="@+id/xtvX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aceleracion_en_x" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/en_y" />
+    <TextView
+        android:id="@+id/xtvY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aceleracion_en_y" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/en_z" />
+    <TextView
+        android:id="@+id/xtvZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aceleracion_en_z" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m_dulo_a" />
+    <TextView
+        android:id="@+id/xtvA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aceleracion" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aceleraci_n_m_xima" />
+    <TextView
+        android:id="@+id/xtvM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gravedad_est_ndar" />
+    <TextView
+        android:id="@+id/xtvG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

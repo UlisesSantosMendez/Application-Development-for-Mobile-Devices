@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sensores2</string>
+    <string name="aceler_metro">*** Acelerómetro ***</string>
+    <string name="en_x">En X:</string>
+    <string name="aceleracion_en_x">Aceleracion en X</string>
+    <string name="en_y">En Y:</string>
+    <string name="aceleracion_en_y">Aceleracion en Y</string>
+    <string name="en_z">En Z:</string>
+    <string name="aceleracion_en_z">Aceleracion en Z</string>
+    <string name="m_dulo_a">Módulo (|A|):</string>
+    <string name="aceleracion">Aceleracion:</string>
+    <string name="aceleraci_n_m_xima">Aceleración máxima:</string>
+    <string name="gravedad_est_ndar">Gravedad estándar:</string>
+</resources>
