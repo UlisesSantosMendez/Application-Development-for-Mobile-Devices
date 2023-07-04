@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ejemplo_1</string>
+    <string name="hola">Hola</string>
+    <string name="digitar">Digitar</string>
+    <string name="dato_del_fragment">Dato del Fragment:</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+</resources>
