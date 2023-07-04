@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/xtv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calculadora_factorial"
+            android:textSize="24sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/xtv2"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:text="@string/con_ayuda_del_teclado_digite_un_numero_entero_y_presione_el_boton_del_factorial"
+            android:textSize="16sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/xtv3"
+            android:layout_width="match_parent"
+            android:layout_height="98dp">
+        </TextView>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow android:layout_height="241dp">
+
+                <Button
+                    android:id="@+id/xbn9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_9"></Button>
+
+                <Button
+                    android:id="@+id/xbn8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_8"></Button>
+
+                <Button
+                    android:id="@+id/xbn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_7"></Button>
+
+                <Button
+                    android:id="@+id/xbnclear"
+                    android:layout_width="109dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/limpiar"></Button>
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/xbn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_6">
+                </Button>
+
+                <Button
+                    android:id="@+id/xbn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_5">
+                </Button>
+
+                <Button
+                    android:id="@+id/xbn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_4"></Button>
+
+            </TableRow>
+            <TableRow>
+
+                <Button
+                    android:id="@+id/xbn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_3">
+                </Button>
+
+                <Button
+                    android:id="@+id/xbn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_2">
+                </Button>
+
+                <Button
+                    android:id="@+id/xbn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1"></Button>
+
+            </TableRow>
+
+            <TableRow android:layout_height="175dp">
+
+                <Button
+                    android:id="@+id/xbnf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/factorial"></Button>
+
+                <Button
+                    android:id="@+id/xbn0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_0"></Button>
+
+                <Button
+                    android:id="@+id/xbneq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/equal"></Button>
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
