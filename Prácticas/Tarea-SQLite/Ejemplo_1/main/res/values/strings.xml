@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DbmsSQLite1</string>
+    <string name="id">ID:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="alta">Alta</string>
+    <string name="lista">Lista</string>
+</resources>
