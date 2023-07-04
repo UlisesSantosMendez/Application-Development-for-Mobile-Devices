@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Archivos_2</string>
+    <string name="archivos">Archivos</string>
+    <string name="ingresar_texto">Ingresar texto...</string>
+    <string name="guardar">Guardar</string>
+    <string name="abrir">Abrir</string>
+</resources>
