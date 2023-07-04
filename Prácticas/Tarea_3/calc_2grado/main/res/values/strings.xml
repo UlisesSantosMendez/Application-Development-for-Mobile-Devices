@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">calc_sgrado</string>
+    <string name="calculadora_de_ecuaci_n_de_2o_grado">Calculadora de ecuación de 2o grado</string>
+    <string name="solucionador">SOLUCIONADOR</string>
+    <string name="ingresa_el_valor_de_ax_2">Ingresa el valor de ax^2</string>
+    <string name="b">b :</string>
+    <string name="ingrese_el_valor_de_bx">Ingrese el valor de bx</string>
+    <string name="c">c</string>
+    <string name="ingresa_el_valor_de_c">Ingresa el valor de c</string>
+    <string name="calcular">Calcular</string>
+    <string name="c_">c :</string>
+    <string name="soluciones">SOLUCIONES:</string>
+    <string name="x1">x1 :</string>
+    <string name="x2">x2 :</string>
+    <string name="salida">Salida :</string>
+</resources>
