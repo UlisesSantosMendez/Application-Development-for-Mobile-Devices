@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notificaciones</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="notificacion">Notificación</string>
+    <string name="notificaci_n_recibida">Notificación Recibida</string>
+</resources>
