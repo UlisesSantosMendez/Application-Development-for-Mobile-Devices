@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:background="#ffffff">
+    <!-- Fila 1 con 1 columna -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/fila_1"
+            android:layout_span="3"
+            android:padding="18dip"
+            android:background="#b0b0b0"
+            android:textColor="#000"/>
+    </TableRow>
+    <!-- Fila 2 con 3 columnas -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/TextView02"
+            android:text="@string/fila_2_columna_1"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/TextView03"
+            android:text="@string/fila_2_columna_2"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/TextView04"
+            android:text="@string/fila_2_columna_3"
+            android:layout_weight="1"
+            android:background="#cac9c9"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+    </TableRow>
+    <!-- Fila 3 con 2 columnas -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/TextView05"
+            android:text="@string/fila_3_columna_1"
+            android:layout_weight="1"
+            android:background="#b0b0b0"
+            android:textColor="#000000"
+            android:padding="18dip"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/TextView06"
+            android:text="@string/fila_3_columna_2"
+            android:layout_weight="1"
+            android:background="#a09f9f"
+            android:textColor="#000000"
+            android:padding="18dip"
+            android:gravity="center"/>
+    </TableRow>
+</TableLayout>
