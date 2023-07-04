@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejercicio_5</string>
+    <string name="celda_1_1">Celda 1.1</string>
+    <string name="celda_1_2">Celda 1.2</string>
+    <string name="celda_1_3">Celda 1.3</string>
+    <string name="celda_2_1">Celda 2.1</string>
+    <string name="celda_2_2">Celda 2.2</string>
+    <string name="celda_2_3">Celda 2.3</string>
+    <string name="celda_3_1">Celda 3.1</string>
+    <string name="celda_3_2">Celda 3.2</string>
+</resources>
