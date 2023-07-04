@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">mult_matrix</string>
+    <string name="multiplicacion_de_matrices">Multiplicacion de matrices</string>
+    <string name="ingrese_el_tama_o_de_la_matriz_a">Ingrese el tamaño de la matriz A:</string>
+    <string name="nx">nx</string>
+    <string name="ny">ny</string>
+    <string name="ingrese_el_tama_o_de_la_matriz_b">Ingrese el tamaño de la matriz B :</string>
+    <string name="tx">nx</string>
+    <string name="ty">ny</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="matriz_a">matriz A</string>
+    <string name="matriz_b">matriz B</string>
+    <string name="ingresar">Ingresar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/multiplicacion_de_matrices"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHighlight="#3F60B5"
+            android:textSize="20sp">
+        </TextView>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TableRow
+                android:gravity="center"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_span="2"
+                    android:text=" "
+                    android:textColor="#008987"
+                    android:textSize="15sp">
+                </TextView>
+            </TableRow>
+            <TableRow android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/ingrese_el_tama_o_de_la_matriz_a"
+                    android:textColor="#33FFD1"
+                    android:textSize="20sp">
+                </TextView>
+            </TableRow>
+
+            <TableRow android:layout_marginTop="30dp">
+
+                <EditText
+                    android:id="@+id/xeta1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.3"
+                    android:hint="@string/nx"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberSigned">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/xeta2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.3"
+                    android:hint="@string/ny"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberSigned">
+                </EditText>
+            </TableRow>
+            <TableRow android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/ingrese_el_tama_o_de_la_matriz_b"
+                    android:textColor="#33FFD1"
+                    android:textSize="20sp">
+                </TextView>
+            </TableRow>
+            <TableRow android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/xetb1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:hint="@string/tx"
+                    android:layout_width="0dp"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberSigned">
+                </EditText>
+                <EditText
+                    android:id="@+id/xetb2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:hint="@string/ty"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberSigned">
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/xbtnin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:clickable="true"
+                    android:text="@string/ingresar">
+                </Button>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/xbtnA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.3"
+                    android:clickable="true"
+                    android:text="@string/matriz_a">
+                </Button>
+
+                <Button
+                    android:id="@+id/xbtnB"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.3"
+                    android:clickable="true"
+                    android:text="@string/matriz_b">
+
+                </Button>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/xbtn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:clickable="true"
+                    android:text="@string/calcular">
+                </Button>
+            </TableRow>
+            <TableRow
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView"
+                android:name="com.example.mult_matrix.fragment_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </androidx.fragment.app.FragmentContainerView>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</ScrollView>
