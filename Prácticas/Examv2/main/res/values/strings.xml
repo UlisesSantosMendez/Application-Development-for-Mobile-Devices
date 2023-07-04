@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Examen2</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="regresar">Regresar</string>
+</resources>

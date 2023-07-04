@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Tabla"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#363537"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:textAlignment="center">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Multiplicación de matrices"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Ingresa el tamaño de la matriz A: "
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="Filas"
+            android:textColor="#ffffff" />
+        <EditText
+            android:id="@+id/xel1"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned"/>
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="Columnas"
+            android:textColor="#ffffff" />
+        <EditText
+            android:id="@+id/xel2"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned"/>
+    </TableRow>
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Ingresa el tamaño de la matriz B:"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="Filas"
+            android:textColor="#ffffff" />
+        <EditText
+            android:id="@+id/xel3"
+            android:layout_width="241dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned"/>
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="Columnas"
+            android:textColor="#ffffff" />
+        <EditText
+            android:id="@+id/xel4"
+            android:layout_width="241dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned"/>
+    </TableRow>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/xbnt3"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:tag="crear"
+            android:textColor="@color/white"
+            android:text="@string/calcular"
+            android:background="@color/naran"/>
+        <FrameLayout
+            android:id="@+id/xfl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </FrameLayout>
+    </LinearLayout>
+</TableLayout>
