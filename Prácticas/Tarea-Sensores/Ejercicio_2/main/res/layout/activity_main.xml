@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sensor_magn_tico_n"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_en_x" />
+    <TextView
+        android:id="@+id/xtvX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campo_x"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nb_en_y"/>
+    <TextView
+        android:id="@+id/xtvY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campo_y"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nb_en_z" />
+    <TextView
+        android:id="@+id/xtvZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campo_z"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nb_m_dulo" />
+    <TextView
+        android:id="@+id/xtvB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campo_total" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ncampo_m_ximo" />
+    <TextView
+        android:id="@+id/xtvM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campo_terrestre" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ncampo_de_la_tierra_m_nimo_y_m_ximo" />
+    <TextView
+        android:id="@+id/xtvT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campo_tierra"/>
+</LinearLayout>

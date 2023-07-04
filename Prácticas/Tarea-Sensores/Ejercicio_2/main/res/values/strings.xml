@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sensores3</string>
+    <string name="sensor_magn_tico_n">*** Sensor Magnético ***\n</string>
+    <string name="b_en_x">B en X:</string>
+    <string name="campo_x">Campo X</string>
+    <string name="nb_en_y">\nB en Y:</string>
+    <string name="campo_y">Campo Y</string>
+    <string name="nb_en_z">\nB en Z:</string>
+    <string name="campo_z">Campo Z</string>
+    <string name="nb_m_dulo">\nB módulo:</string>
+    <string name="campo_total">Campo total</string>
+    <string name="ncampo_m_ximo">\nCampo máximo:</string>
+    <string name="campo_terrestre">Campo terrestre</string>
+    <string name="ncampo_de_la_tierra_m_nimo_y_m_ximo">\nCampo de la Tierra mínimo y máximo:</string>
+    <string name="campo_tierra">Campo tierra</string>
+</resources>
