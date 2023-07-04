@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejemplo_2</string>
+    <string name="boton_imagebutton">Boton ImageButton:</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="nboton_togglebutton">\nBoton ToggleButton:</string>
+</resources>
