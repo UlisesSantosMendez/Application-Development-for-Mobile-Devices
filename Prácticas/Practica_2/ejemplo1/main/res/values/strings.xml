@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ejemplo_1</string>
+    <string name="eventos_de_button_n_digite_un_boton_n">Eventos de Button\nDigite un boton...\n</string>
+    <string name="clase_Interna_jbn1">Clase Interna (jbn1)</string>
+    <string name="clase_interna_anonima_jbn2">Clase Interna Anonima (jbn2)</string>
+    <string name="implanta_una_interface_jbn3">Implanta una Interface (jbn3)</string>
+    <string name="invoca_al_metodo_desde_xml_jbn4">Invoca al metodo desde XML (jbn4)</string>
+</resources>

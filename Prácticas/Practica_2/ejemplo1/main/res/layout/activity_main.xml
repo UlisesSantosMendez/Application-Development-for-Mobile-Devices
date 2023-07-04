@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:text="@string/eventos_de_button_n_digite_un_boton_n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Button
+        android:text="@string/clase_Interna_jbn1"
+        android:id="@+id/xbn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:text="@string/clase_interna_anonima_jbn2"
+        android:id="@+id/xbn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:text="@string/implanta_una_interface_jbn3"
+        android:id="@+id/xbn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:text="@string/invoca_al_metodo_desde_xml_jbn4"
+        android:id="@+id/xbn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="xbn4DesdeXML">
+    </Button>
+</LinearLayout>
